@@ -1,4 +1,3 @@
-// Write your solution here!
 const cats = ["Milo", "Otis", "Garfield"];
 function destructivelyAppendCat(name) {
   cats.push(name);
@@ -17,12 +16,12 @@ function destructivelyRemoveFirstCat() {
   return cats;
 }
 function appendCat(name) {
-  let Broom = [...cats, name];
-  return Broom;
+  let Bruce = [...cats, name];
+  return Bruce;
 }
 function prependCat(name) {
-  let Arnold = [name, ...cats];
-  return Arnold;
+  let Billy = [name, ...cats];
+  return Billy;
 }
 function removeLastCat() {
   let newArray = [...cats];
@@ -32,5 +31,4 @@ function removeLastCat() {
 function removeFirstCat() {
   let newArray = [...cats];
   newArray.shift();
-  return newArray;
-}
+  return newArray;}
